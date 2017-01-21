@@ -4,12 +4,6 @@ from __future__ import print_function
 from random import randint
 import sys
 
-def getnums(f,r=[0,1,2,3],c=[0,1,2,3]):
-    ints=[]
-    for y in r:
-        for x in c:ints.append(f[y][x])
-    return ints
-
 def sert(f,liste,r=[0,1,2,3],c=[0,1,2,3],reverse=False):
     pop_from=0
     if reverse==True:pop_from=-1
